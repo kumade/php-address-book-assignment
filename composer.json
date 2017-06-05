@@ -1,0 +1,20 @@
+{
+    "name": "kumade/php-address-book-assignment",
+    "description": "A simple address book library in PHP.",
+    "authors": [
+        {
+            "name": "kumade",
+            "email": "kumade@kumade.ru"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7"
+    },
+    
+    "autoload-dev": {
+        "classmap": ["src/", "src/entity/"]
+    }
+}
